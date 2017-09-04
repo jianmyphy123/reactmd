@@ -48,7 +48,7 @@ class App extends Component {
           <ListItem
             disabled={true}
             leftAvatar={
-              <Avatar icon={<FontIcon className="muidocs-icon-communication-voicemail" />} />
+              <Avatar icon={<FontIcon className="material-icons">voicemail</FontIcon>} />
             }
           >
             FontIcon Avatar
@@ -57,7 +57,7 @@ class App extends Component {
             disabled={true}
             leftAvatar={
               <Avatar
-                icon={<FontIcon className="muidocs-icon-communication-voicemail" />}
+                icon={<i className="material-icons">voicemail</i>}
                 color={blue300}
                 backgroundColor={indigo900}
                 size={30}
